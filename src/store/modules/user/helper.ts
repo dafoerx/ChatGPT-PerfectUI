@@ -15,9 +15,9 @@ export interface UserState {
 export function defaultSetting(): UserState {
   return {
     userInfo: {
-      avatar: 'https://raw.githubusercontent.com/leizhenpeng/chatgpt-perfectui/main/src/assets/avatar.jpg',
-      name: 'leizhenpeng',
-      description: 'Star on <a href="https://github.com/leizhenpeng/chatgpt-perfectui" class="text-blue-500" target="_blank" >Github</a>',
+      avatar: '/ck3.jpg',
+      name: 'ck',
+      description: 'Star on <a href="https://github.com/ck/chatgpt-perfectui" class="text-blue-500" target="_blank" >Github</a>',
     },
   }
 }

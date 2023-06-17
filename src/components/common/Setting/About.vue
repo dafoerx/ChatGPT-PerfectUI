@@ -49,7 +49,7 @@ onMounted(() => {
           此项目开源于
           <a
             class="text-blue-600 dark:text-blue-500"
-            href="https://github.com/leizhenpeng/chatgpt-perfectui"
+            href="https://github.com/ck/chatgpt-perfectui"
             target="_blank"
           >
             Github

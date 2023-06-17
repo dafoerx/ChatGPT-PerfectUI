@@ -135,8 +135,8 @@ pnpm build
 
 感谢飞叶在林的小伙伴，以及所有做过贡献的人!
 
-<a href="https://github.com/leizhenpeng/ChatGPT-PerfectUI/graphs/contributors">
-  <img src="https://contrib.rocks/image?repo=leizhenpeng/ChatGPT-PerfectUI" />
+<a href="https://github.com/ck/ChatGPT-PerfectUI/graphs/contributors">
+  <img src="https://contrib.rocks/image?repo=ck/ChatGPT-PerfectUI" />
 </a>
 
 
