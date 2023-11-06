@@ -1,3 +1,5 @@
+import https from 'https';
+import fs from 'fs';
 import path from 'path'
 import type { PluginOption } from 'vite'
 import { defineConfig, loadEnv } from 'vite'
@@ -35,7 +37,11 @@ export default defineConfig((env) => {
     plugins: setupPlugins(viteEnv),
     server: {
       host: '0.0.0.0',
-      port: 1002,
+      port: 443,
+      https: {
+        key: fs.readFileSync('nineassist.cn.key'),
+        cert: fs.readFileSync('nineassist.cn_bundle.crt'),
+      },
       open: false,
       proxy: {
         '/api': {
